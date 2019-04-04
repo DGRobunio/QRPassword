@@ -4,7 +4,8 @@ const query = require('querystring')
 const fs = require('fs')
 const redis = require('redis')
 
-const hostname = '192.168.0.2'
+// const hostname = '192.168.1.100'
+const hostname = '10.0.0.11'
 const port = 3000
 const client = redis.createClient(6379, '127.0.0.1')
 
@@ -26,6 +27,9 @@ const server = http.createServer((req, res) => {
         req.on('end', () => {
             post = JSON.parse(post)
             if (post.id && post.id.length === 8) {
+              // console.log(`sessionID:${post.id}`)
+              // console.log(`username :${post.username}`)
+              // console.log(`hostname :${post.hostname}`)
                 if (post.hostname && post.username && post.password) {
                     client.get(post.id, (err, value) => {
                         if (err) throw err

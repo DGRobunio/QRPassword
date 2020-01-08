@@ -12,7 +12,7 @@ class CodeContent {
 }
 
 // const serverURL = 'http://192.168.1.100:3000'
-const serverURL = 'http://10.0.0.11:3000'
+const serverURL = 'http://172.20.10.3:3000'
 
 const sessionID = rand(8)
 const secretKey = rand(16)
@@ -49,8 +49,6 @@ function createCode() {
                 if (xhr.readyState === 4 && xhr.status === 200) {
                     if (xhr.responseText) {
                         const infoJSON = JSON.parse(xhr.responseText)
-                        // console.log(decrypt(secretKey, initVector, infoJSON.username))
-                        // console.log(decrypt(secretKey, initVector, infoJSON.password))
                         if (codeContent.hostname === decrypt(secretKey, initVector, infoJSON.hostname)) {
                             clearTimeout(poll)
                             flag = true

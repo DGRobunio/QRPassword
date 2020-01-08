@@ -5,7 +5,7 @@ const fs = require('fs')
 const redis = require('redis')
 
 // const hostname = '192.168.1.100'
-const hostname = '10.0.0.11'
+const hostname = '172.20.10.3'
 const port = 3000
 const client = redis.createClient(6379, '127.0.0.1')
 

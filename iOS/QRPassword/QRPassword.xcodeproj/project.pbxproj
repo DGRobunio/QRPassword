@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87076E862239FA6600A12A0D /* databaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87076E852239FA6600A12A0D /* databaseHelper.swift */; };
+		87A9E422223A3C1D00B1E7B2 /* coreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A9E421223A3C1D00B1E7B2 /* coreDataHelper.swift */; };
+		87A9E424223B239900B1E7B2 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A9E423223B239900B1E7B2 /* ScanViewController.swift */; };
+		87D3DA2A2238C724008D0DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3DA292238C724008D0DA0 /* AppDelegate.swift */; };
+		87D3DA312238C724008D0DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D3DA2F2238C724008D0DA0 /* Main.storyboard */; };
+		87D3DA332238C725008D0DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D3DA322238C725008D0DA0 /* Assets.xcassets */; };
+		87D3DA362238C725008D0DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D3DA342238C725008D0DA0 /* LaunchScreen.storyboard */; };
+		87D3DA3E2238C805008D0DA0 /* crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3DA3D2238C805008D0DA0 /* crypto.swift */; };
+		87D3DA402238C82F008D0DA0 /* passwordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3DA3F2238C82F008D0DA0 /* passwordData.swift */; };
+		87D3DA422238CAA5008D0DA0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3DA412238CAA5008D0DA0 /* MainViewController.swift */; };
+		87D3DA482238CC81008D0DA0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3DA472238CC81008D0DA0 /* AddViewController.swift */; };
+		87D3DA4A2238CCA9008D0DA0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3DA492238CCA9008D0DA0 /* SettingViewController.swift */; };
+		87D3DA4E2238CFC7008D0DA0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3DA4D2238CFC7008D0DA0 /* AboutViewController.swift */; };
+		87D3DA502238D0D3008D0DA0 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 87D3DA4F2238D0D3008D0DA0 /* about.html */; };
+		87E4572F223A204C003C3B91 /* Passwd.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87E4572D223A204C003C3B91 /* Passwd.xcdatamodeld */; };
+		B1AA6580B5F1C70721A46184 /* Pods_QRPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECE8178E0E197005B1E8E6C /* Pods_QRPassword.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87076E852239FA6600A12A0D /* databaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = databaseHelper.swift; path = QRPassword/class/databaseHelper.swift; sourceTree = SOURCE_ROOT; };
+		8761FBEE2239010F002D4438 /* QRPassword.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QRPassword.entitlements; sourceTree = "<group>"; };
+		87A9E421223A3C1D00B1E7B2 /* coreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataHelper.swift; sourceTree = "<group>"; };
+		87A9E423223B239900B1E7B2 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		87D3DA262238C724008D0DA0 /* QRPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D3DA292238C724008D0DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87D3DA302238C724008D0DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87D3DA322238C725008D0DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87D3DA352238C725008D0DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87D3DA372238C725008D0DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87D3DA3D2238C805008D0DA0 /* crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto.swift; sourceTree = "<group>"; };
+		87D3DA3F2238C82F008D0DA0 /* passwordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordData.swift; sourceTree = "<group>"; };
+		87D3DA412238CAA5008D0DA0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		87D3DA472238CC81008D0DA0 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		87D3DA492238CCA9008D0DA0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		87D3DA4D2238CFC7008D0DA0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		87D3DA4F2238D0D3008D0DA0 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		87E4572E223A204C003C3B91 /* Passwd.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Passwd.xcdatamodel; sourceTree = "<group>"; };
+		9ECE8178E0E197005B1E8E6C /* Pods_QRPassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRPassword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84937E905F61F22312A889F /* Pods-QRPassword.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRPassword.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRPassword/Pods-QRPassword.debug.xcconfig"; sourceTree = "<group>"; };
+		DA9D3519A3F4959D4510DC3C /* Pods-QRPassword.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRPassword.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRPassword/Pods-QRPassword.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87D3DA232238C724008D0DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AA6580B5F1C70721A46184 /* Pods_QRPassword.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E027859D1FAA5DF8A03389D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C84937E905F61F22312A889F /* Pods-QRPassword.debug.xcconfig */,
+				DA9D3519A3F4959D4510DC3C /* Pods-QRPassword.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87D3DA1D2238C724008D0DA0 = {
+			isa = PBXGroup;
+			children = (
+				87D3DA282238C724008D0DA0 /* QRPassword */,
+				87D3DA272238C724008D0DA0 /* Products */,
+				7E027859D1FAA5DF8A03389D /* Pods */,
+				EB3010CC9298DB705D103C01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87D3DA272238C724008D0DA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87D3DA262238C724008D0DA0 /* QRPassword.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87D3DA282238C724008D0DA0 /* QRPassword */ = {
+			isa = PBXGroup;
+			children = (
+				8761FBEE2239010F002D4438 /* QRPassword.entitlements */,
+				87D3DA4F2238D0D3008D0DA0 /* about.html */,
+				87D3DA292238C724008D0DA0 /* AppDelegate.swift */,
+				87D3DA2F2238C724008D0DA0 /* Main.storyboard */,
+				87D3DA322238C725008D0DA0 /* Assets.xcassets */,
+				87D3DA462238CC4D008D0DA0 /* ViewController */,
+				87D3DA342238C725008D0DA0 /* LaunchScreen.storyboard */,
+				87D3DA372238C725008D0DA0 /* Info.plist */,
+				87E4572D223A204C003C3B91 /* Passwd.xcdatamodeld */,
+				87D3DA442238CBCB008D0DA0 /* class */,
+			);
+			path = QRPassword;
+			sourceTree = "<group>";
+		};
+		87D3DA442238CBCB008D0DA0 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				87076E852239FA6600A12A0D /* databaseHelper.swift */,
+				87A9E421223A3C1D00B1E7B2 /* coreDataHelper.swift */,
+				87D3DA3D2238C805008D0DA0 /* crypto.swift */,
+				87D3DA3F2238C82F008D0DA0 /* passwordData.swift */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		87D3DA462238CC4D008D0DA0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87A9E423223B239900B1E7B2 /* ScanViewController.swift */,
+				87D3DA4D2238CFC7008D0DA0 /* AboutViewController.swift */,
+				87D3DA412238CAA5008D0DA0 /* MainViewController.swift */,
+				87D3DA472238CC81008D0DA0 /* AddViewController.swift */,
+				87D3DA492238CCA9008D0DA0 /* SettingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EB3010CC9298DB705D103C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ECE8178E0E197005B1E8E6C /* Pods_QRPassword.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87D3DA252238C724008D0DA0 /* QRPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D3DA3A2238C725008D0DA0 /* Build configuration list for PBXNativeTarget "QRPassword" */;
+			buildPhases = (
+				A22704BEB8596A141A6174F3 /* [CP] Check Pods Manifest.lock */,
+				87D3DA222238C724008D0DA0 /* Sources */,
+				87D3DA232238C724008D0DA0 /* Frameworks */,
+				87D3DA242238C724008D0DA0 /* Resources */,
+				8522E6195D826520D952FEB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRPassword;
+			productName = QRPassword;
+			productReference = 87D3DA262238C724008D0DA0 /* QRPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87D3DA1E2238C724008D0DA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = demo;
+				TargetAttributes = {
+					87D3DA252238C724008D0DA0 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 87D3DA212238C724008D0DA0 /* Build configuration list for PBXProject "QRPassword" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87D3DA1D2238C724008D0DA0;
+			productRefGroup = 87D3DA272238C724008D0DA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87D3DA252238C724008D0DA0 /* QRPassword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87D3DA242238C724008D0DA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D3DA502238D0D3008D0DA0 /* about.html in Resources */,
+				87D3DA362238C725008D0DA0 /* LaunchScreen.storyboard in Resources */,
+				87D3DA332238C725008D0DA0 /* Assets.xcassets in Resources */,
+				87D3DA312238C724008D0DA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8522E6195D826520D952FEB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QRPassword/Pods-QRPassword-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRPassword/Pods-QRPassword-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A22704BEB8596A141A6174F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRPassword-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87D3DA222238C724008D0DA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D3DA4A2238CCA9008D0DA0 /* SettingViewController.swift in Sources */,
+				87D3DA482238CC81008D0DA0 /* AddViewController.swift in Sources */,
+				87E4572F223A204C003C3B91 /* Passwd.xcdatamodeld in Sources */,
+				87A9E424223B239900B1E7B2 /* ScanViewController.swift in Sources */,
+				87D3DA3E2238C805008D0DA0 /* crypto.swift in Sources */,
+				87A9E422223A3C1D00B1E7B2 /* coreDataHelper.swift in Sources */,
+				87D3DA4E2238CFC7008D0DA0 /* AboutViewController.swift in Sources */,
+				87076E862239FA6600A12A0D /* databaseHelper.swift in Sources */,
+				87D3DA402238C82F008D0DA0 /* passwordData.swift in Sources */,
+				87D3DA2A2238C724008D0DA0 /* AppDelegate.swift in Sources */,
+				87D3DA422238CAA5008D0DA0 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87D3DA2F2238C724008D0DA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D3DA302238C724008D0DA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87D3DA342238C725008D0DA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D3DA352238C725008D0DA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87D3DA382238C725008D0DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87D3DA392238C725008D0DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87D3DA3B2238C725008D0DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84937E905F61F22312A889F /* Pods-QRPassword.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GKQJM33M5;
+				INFOPLIST_FILE = QRPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.QRPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87D3DA3C2238C725008D0DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9D3519A3F4959D4510DC3C /* Pods-QRPassword.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GKQJM33M5;
+				INFOPLIST_FILE = QRPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.QRPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87D3DA212238C724008D0DA0 /* Build configuration list for PBXProject "QRPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D3DA382238C725008D0DA0 /* Debug */,
+				87D3DA392238C725008D0DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D3DA3A2238C725008D0DA0 /* Build configuration list for PBXNativeTarget "QRPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D3DA3B2238C725008D0DA0 /* Debug */,
+				87D3DA3C2238C725008D0DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87E4572D223A204C003C3B91 /* Passwd.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87E4572E223A204C003C3B91 /* Passwd.xcdatamodel */,
+			);
+			currentVersion = 87E4572E223A204C003C3B91 /* Passwd.xcdatamodel */;
+			path = Passwd.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87D3DA1E2238C724008D0DA0 /* Project object */;
+}

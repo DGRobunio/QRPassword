@@ -1,0 +1,26 @@
+PODS:
+  - CryptoSwift (0.14.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - SQLite.swift (~> 0.11.5)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CryptoSwift
+    - SQLite.swift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  CryptoSwift: 35a10419f4dbf0619c13f8c1c180037e115323fa
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 7276470d02d951d3a4d9d7d5d5bec071934f74cf
+
+COCOAPODS: 1.5.2

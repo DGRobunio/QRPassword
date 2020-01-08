@@ -18,6 +18,7 @@ The server-side program behaves differently when visited in different HTTP metho
 - Redis
 - Node.js & npm
 - node_redis (install with npm)
+- Swift 4
 
 ## Usage & Process
 Make sure that desktop and Android device can access the same server, assuming it is ```192.168.0.2:3000```.
